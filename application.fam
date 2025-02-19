@@ -1,0 +1,12 @@
+App(
+    appid="cgol",
+    name="Cgol",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="conway_main",
+    requires=["gui"],
+    stack_size=1 * 1024,
+    fap_version="1.0",
+    fap_description="Conways",
+    fap_icon="snake_10px.png",
+    fap_category="Games",
+)
